@@ -10,4 +10,4 @@ bot = commands.Bot(command_prefix='!',intents=intents)
 async def skill_issue(ctx):
     await ctx.send('potg')
 
-bot.run('MTA4MjMzNjUzMTUzNDA2OTkwMA.G-K3qr.l3cvL0Zhyy_SXMAmVvTfI7Yo-kpYqP8fOLqZIY')
+bot.run('MTA4MjMzNjUzMTUzNDA2OTkwMA.Gc-ys3.TabzpPUIOl9F40IkyQQ0AWJTQ3p0w-Q_t3CDqg')
