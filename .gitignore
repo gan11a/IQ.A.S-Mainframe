@@ -2,3 +2,4 @@ config.json
 node_modules/
 config.txt
 .idea/
+config.py
