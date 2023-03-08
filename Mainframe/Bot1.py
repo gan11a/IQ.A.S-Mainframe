@@ -18,4 +18,12 @@ async def on_ready():
     async with bot.db.cursor() as cursor:
         await cursor.execute("CREATE TABLE IF NOT EXISTS levels (level INTEGER, xp INTEGER, user INTEGER, guild INTEGER)")
 
+@bot.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    author = message.author
+    guild = message.guild
+    async with bot.db.cursor() as cursor:
+        
 bot.run(TOKEN)
